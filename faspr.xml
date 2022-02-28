@@ -1,0 +1,79 @@
+<ForceField>
+  <Info>
+    <DateGenerated>2022-02-26</DateGenerated>
+    <Reference>Huang, Xiaoqiang, Robin Pearce, and Yang Zhang. "FASPR: an open-source tool for fast and accurate protein side-chain packing." Bioinformatics 36.12 (2020): 3758-3765.</Reference>
+  </Info>
+  <AtomTypes>
+      <Type element="C" name="1"  class="C" mass="12.01" comment="Main-chain CA"/>
+      <Type element="C" name="2"  class="C" mass="12.01" comment="Main-chain C"/>
+      <Type element="N" name="3"  class="N" mass="14.01" comment="Main-chain N"/>
+      <Type element="O" name="4"  class="O" mass="16.00" comment="Main-chain O"/>
+      <Type element="C" name="5"  class="C" mass="12.01" comment="CH1"/>
+      <Type element="C" name="6"  class="C" mass="12.01" comment="CH2"/>
+      <Type element="C" name="7"  class="C" mass="12.01" comment="CH3"/>
+      <Type element="C" name="8"  class="C" mass="12.01" comment="Aromatic C"/>
+      <Type element="C" name="9"  class="C" mass="12.01" comment="Side-chain CO, COO,HCNN"/>
+      <Type element="C" name="10" class="C" mass="12.01" comment="Cys CB"/>
+      <Type element="N" name="11" class="N" mass="14.01" comment="Side-chain -NH-, -NH2, -NH3"/>
+      <Type element="N" name="12" class="N" mass="14.01" comment="His NE2"/>
+      <Type element="N" name="13" class="N" mass="14.01" comment="Pro N"/>
+      <Type element="O" name="14" class="O" mass="16.00" comment="OC"/>
+      <Type element="O" name="15" class="O" mass="16.00" comment="OOC"/>
+      <Type element="O" name="16" class="O" mass="16.00" comment="OH"/>
+      <Type element="S" name="17" class="S" mass="32.06" comment="Cys S"/>
+      <Type element="S" name="18" class="S" mass="32.06" comment="Met S"/>
+  </AtomTypes>
+  <Residues>
+    <Residue name="ALA">
+      <Atom name="N"  type="3" />
+      <Atom name="CA" type="1" />
+      <Atom name="CB" type="7" />
+      <Atom name="C"  type="2" />
+      <Atom name="O"  type="4" />
+    </Residue>
+    <Residue name="ARG">
+      <Atom name="N"   type="3"  charge="-0.3908" />
+      <Atom name="CA"  type="1"  charge="-0.4513" />
+      <Atom name="CB"  type="6"  charge="-0.01245" />
+      <Atom name="CG"  type="6"  charge="-0.02988" />
+      <Atom name="CD"  type="6"  charge="0.06705" />
+      <Atom name="NE"  type="11" charge="-0.58061" />
+      <Atom name="CZ"  type="9"  charge="0.74823" />
+      <Atom name="NH1" type="11" charge="-0.83745" />
+      <Atom name="NH2" type="11" charge="-0.83745" />
+      <Atom name="C"   type="2"  charge="0.8387" />
+      <Atom name="O"   type="4"  charge="-0.63388" />
+    </Residue>
+    <Residue name="ASP">
+      <Atom name="N"   type="3"  charge="-0.51112" />
+      <Atom name="CA"  type="1"  charge="0.08118" />
+      <Atom name="CB"  type="6"  charge="-0.1463" />
+      <Atom name="CG"  type="9"  charge="0.60797"/>
+      <Atom name="OD1" type="15" charge="-0.51272"/>
+      <Atom name="OD2" type="15" charge="-0.53531"/>
+      <Atom name="C"   type="2"  charge="0.63952"/>
+      <Atom name="O"   type="4"  charge="-0.58991"/>
+    </Residue>
+  </Residues>
+  <NonbondedForce>
+      <Atom type="1"  sigma="1.78" epsilon="0.25" />
+      <Atom type="2"  sigma="1.40" epsilon="0.14" />
+      <Atom type="3"  sigma="1.42" epsilon="0.08" />
+      <Atom type="4"  sigma="1.48" epsilon="0.22" />
+      <Atom type="5"  sigma="2.30" epsilon="0.30" />
+      <Atom type="6"  sigma="1.91" epsilon="0.37" />
+      <Atom type="7"  sigma="1.96" epsilon="0.48" />
+      <Atom type="8"  sigma="1.73" epsilon="0.38" />
+      <Atom type="9"  sigma="1.43" epsilon="0.07" />
+      <Atom type="10" sigma="1.99" epsilon="0.38" />
+      <Atom type="11" sigma="1.69" epsilon="0.24" />
+      <Atom type="12" sigma="1.56" epsilon="0.46" />
+      <Atom type="13" sigma="1.70" epsilon="0.48" />
+      <Atom type="14" sigma="1.44" epsilon="0.27" />
+      <Atom type="15" sigma="1.40" epsilon="0.07" />
+      <Atom type="16" sigma="1.43" epsilon="0.12" />
+      <Atom type="17" sigma="2.15" epsilon="0.44" />
+      <Atom type="18" sigma="1.74" epsilon="0.40" />
+  </NonbondedForce> 
+</ForceField>
+

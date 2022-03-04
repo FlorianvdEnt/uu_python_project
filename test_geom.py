@@ -120,4 +120,39 @@ def test_nerf_4():
     actual = geom.nerf(coords[0], coords[1], coords[2], r, theta, phi)
     np.testing.assert_allclose(actual, expected, rtol=rtol_def, atol=atol_def, equal_nan=False)
 
+def test_angle():
+    p1 = np.array([0.,-1., 0.])
+    p2 = np.array([0., 0., 0.])
+    p3 = np.array([0., 0., 1.])
+    
+    expected = 90 # degree
+    actual = np.degrees(geom.angle(p1, p2, p3))
+    
+    np.testing.assert_allclose(expected, actual, rtol=rtol_def, atol=atol_def, equal_nan=False)
+    
+def test_dihedral_angle_1():
+    p1 = np.array([3.485, 62.378, -48.884])
+    p2 = np.array([3.963, 62.400, -50.103])
+    p3 = np.array([3.188, 62.567, -51.311])
+    p4 = np.array([3.337, 61.226, -51.970])
 
+    expected = -112.75 # degree
+    actual = np.degrees(geom.dihedral_angle(p1, p2, p3, p4))
+    
+    print(expected, actual)
+    
+    np.testing.assert_allclose(expected, actual, rtol=rtol_def, atol=atol_def, equal_nan=False)
+    
+def test_dihedral_angle_2():
+    p1 = np.array([0.,-1., 0.])
+    p2 = np.array([0., 0., 0.])
+    p3 = np.array([0., 0., 1.])
+    p4 = np.array([1., 0., 1.])
+
+    expected = 90 # degree
+    actual = np.degrees(geom.dihedral_angle(p1, p2, p3, p4))
+    
+    print(expected, actual)
+    
+    np.testing.assert_allclose(expected, actual, rtol=rtol_def, atol=atol_def, equal_nan=False)
+    

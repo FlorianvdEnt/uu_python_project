@@ -44,6 +44,16 @@
       <Atom name="C"   type="2"  charge="0.8387" />
       <Atom name="O"   type="4"  charge="-0.63388" />
     </Residue>
+    <Residue name="ASN">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="6" charge="-0.2041"/>
+      <Atom name="CG" type="9" charge="0.713"/>
+      <Atom name="OD1" type="14" charge="-0.5931"/>
+      <Atom name="ND2" type="11" charge="-0.9191"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
     <Residue name="ASP">
       <Atom name="N"   type="3"  charge="-0.51112" />
       <Atom name="CA"  type="1"  charge="0.08118" />
@@ -53,6 +63,173 @@
       <Atom name="OD2" type="15" charge="-0.53531"/>
       <Atom name="C"   type="2"  charge="0.63952"/>
       <Atom name="O"   type="4"  charge="-0.58991"/>
+    </Residue>
+    <Residue name="CYS">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="10" charge="-0.1231"/>
+      <Atom name="SG" type="17" charge="-0.3119"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="GLN">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="6" charge="-0.0036"/>
+      <Atom name="CG" type="6" charge="-0.0645"/>
+      <Atom name="CD" type="9" charge="0.6951"/>
+      <Atom name="OE1" type="14" charge="-0.6086"/>
+      <Atom name="NE2" type="11" charge="-0.9407"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="GLU">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="6" charge="0.056"/>
+      <Atom name="CG" type="6" charge="0.0136"/>
+      <Atom name="CD" type="9" charge="0.8054"/>
+      <Atom name="OE1" type="15" charge="-0.8188"/>
+      <Atom name="OE2" type="15" charge="-0.8188"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="GLY">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="-0.0252"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="HIS">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="6" charge="-0.0462"/>
+      <Atom name="CG" type="8" charge="-0.0266"/>
+      <Atom name="ND1" type="12" charge="-0.3811"/>
+      <Atom name="CE1" type="8" charge="0.2057"/>
+      <Atom name="NE2" type="12" charge="-0.5727"/>
+      <Atom name="CD2" type="8" charge="0.1292"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="ILE">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="5" charge="0.1303"/>
+      <Atom name="CG2" type="7" charge="-0.3204"/>
+      <Atom name="CG1" type="6" charge="-0.043"/>
+      <Atom name="CD1" type="7" charge="-0.066"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="LEU">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="6" charge="-0.1102"/>
+      <Atom name="CG" type="5" charge="0.3531"/>
+      <Atom name="CD1" type="7" charge="-0.4121"/>
+      <Atom name="CD2" type="7" charge="-0.4121"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="LYS">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="6" charge="-0.0094"/>
+      <Atom name="CG" type="6" charge="0.0187"/>
+      <Atom name="CD" type="6" charge="-0.0479"/>
+      <Atom name="CE" type="6" charge="-0.0143"/>
+      <Atom name="NZ" type="11" charge="-0.3854"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="MET">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="6" charge="0.0342"/>
+      <Atom name="CG" type="6" charge="0.0018"/>
+      <Atom name="SD" type="18" charge="-0.2737"/>
+      <Atom name="CE" type="7" charge="-0.0536"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="PHE">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="6" charge="-0.0343"/>
+      <Atom name="CG" type="8" charge="0.0118"/>
+      <Atom name="CD1" type="8" charge="-0.1256"/>
+      <Atom name="CE1" type="8" charge="-0.1704"/>
+      <Atom name="CZ" type="8" charge="-0.1072"/>
+      <Atom name="CE2" type="8" charge="-0.1704"/>
+      <Atom name="CD2" type="8" charge="-0.1256"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="PRO">
+      <Atom name="N" type="3" charge="-0.2548"/>
+      <Atom name="CD" type="6" charge="0.0192"/>
+      <Atom name="CG" type="6" charge="0.0189"/>
+      <Atom name="CB" type="6" charge="-0.007"/>
+      <Atom name="CA" type="1" charge="-0.0266"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="SER">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="9" charge="0.2117"/>
+      <Atom name="OG" type="16" charge="-0.6546"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="THR">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="9" charge="0.3654"/>
+      <Atom name="CG2" type="7" charge="-0.2438"/>
+      <Atom name="OG1" type="16" charge="-0.6761"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="TRP">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="6" charge="-0.005"/>
+      <Atom name="CG" type="8" charge="-0.1415"/>
+      <Atom name="CD1" type="8" charge="-0.1638"/>
+      <Atom name="NE1" type="11" charge="-0.3418"/>
+      <Atom name="CE2" type="8" charge="0.138"/>
+      <Atom name="CZ2" type="8" charge="-0.2601"/>
+      <Atom name="CH2" type="8" charge="-0.1134"/>
+      <Atom name="CZ3" type="8" charge="-0.1972"/>
+      <Atom name="CE3" type="8" charge="-0.2387"/>
+      <Atom name="CD2" type="8" charge="0.1243"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="TYR">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="6" charge="-0.0152"/>
+      <Atom name="CG" type="8" charge="-0.0011"/>
+      <Atom name="CD1" type="8" charge="-0.1906"/>
+      <Atom name="CE1" type="8" charge="-0.2341"/>
+      <Atom name="CZ" type="8" charge="0.3226"/>
+      <Atom name="OH" type="16" charge="-0.5579"/>
+      <Atom name="CE2" type="8" charge="-0.2341"/>
+      <Atom name="CD2" type="8" charge="-0.1906"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
+    </Residue>
+    <Residue name="VAL">
+      <Atom name="N" type="3" charge="-0.4157"/>
+      <Atom name="CA" type="1" charge="0.0143"/>
+      <Atom name="CB" type="5" charge="0.2985"/>
+      <Atom name="CG1" type="7" charge="-0.3192"/>
+      <Atom name="CG2" type="7" charge="-0.3192"/>
+      <Atom name="C" type="2" charge="0.5973"/>
+      <Atom name="O" type="4" charge="-0.5679"/>
     </Residue>
   </Residues>
   <NonbondedForce>

@@ -20,26 +20,26 @@ def dist(vec1, vec2):
 def angle(vec1, vec2, vec3):
     vec2_1 = vec1 - vec2
     vec2_3 = vec3 - vec2
+    
     dot = np.dot(vec2_1, vec2_3)
-    prod = norm(vec2_3) * norm(vec1_2)
-    return math.arccos(dot/prod)
+    prod = norm(vec2_3) * norm(vec2_1)
+    
+    return math.acos(dot/prod)
 
 def dihedral_angle(vec1, vec2, vec3, vec4):
-    vec1_2 = vec2 - vec1
-    vec2_3 = vec3 - vec2
-    vec3_4 = vec4 - vec3
+    """
+    Calculates the dihedral angle given 4 points.
+    Based on formula taken from: https://en.wikipedia.org/wiki/Dihedral_angle
+    """
     
-    norm1 = np.cross(vec1_2, vec2_3)
-    norm2 = np.cross(vec2_3, vec3_4)
-
-    norm1 = norm1/norm(norm1)
-    norm2 = norm2/norm(norm2)
-
-    dot = np.dot(norm1, norm2)
-    prod = norm1 * norm2
-
-    return math.arcos(dot/prod)
-
+    u1 = vec2 - vec1
+    u2 = vec3 - vec2
+    u3 = vec4 - vec3
+    
+    A = np.dot(norm(u2) * u1, np.cross(u2, u3))
+    B = np.dot(np.cross(u1, u2), np.cross(u2, u3))
+       
+    return math.atan2(A, B)
 
 # Cartesian to internal (NeRF functions)
 def calc_srf(r, theta, phi):
@@ -80,4 +80,3 @@ def place_init(order, r1, r2, theta):
     coords[2] += (c + coords[order[0]] ) 
     return coords
     
-
